@@ -966,14 +966,14 @@ apply" over the main branch, not merging our issue branch FROM the main branch.
 
 Rebasing essentially tells git that whatever changes we made in the
 CURRENT branch we're on, to APPLY them <em>on top</em> of the "main" branch. This
-as opposed to merging, in which we take the endpoint (last commit) of the branch
+is as opposed to merging, in which we take the endpoint (last commit) of the branch
 and merges it into the main branch instead.
 
 To be honest, the distinction between merging and rebasing can seem confusing to
-me as I am a beginer, and accounts I've read online indicate that it takes quite
-a bit of encountering both on a project before one can appreciate the
-differences between the two. So please take the above explanation with a grain
-of salt.
+me (as I am a beginner at using git in this context). Indeed, accounts I've read online
+indicate that it takes quite a bit of practice while encountering both merging and rebasing
+on a project before one can appreciate the differences between the two. So please take the
+above explanation with a grain of salt.
 
 ### Rebase vs Merging
 
