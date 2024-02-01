@@ -34,8 +34,8 @@ subject of Repository specific features like those available via Github or
 Gitlab. Therefore, many advanced features of git, like CI/CD features, will not
 be covered in this talk. This talk is mainly concerned with understanding basic
 git practices on working with small teams and how the basic flows of
-creating/deleting git branches, merging git branches, rebasing git branches, and
-also creating pull requests and also forking projects on Github. I myself am not
+creating/deleting git branches, merging git branches, rebasing git branches, creating
+pull requests as well as forking projects on Github. I myself am not
 an expert and git, but wanted to give this talk to further my own basic
 understanding of git and also to hopefully help all of you should you not be
 familiar with these practices. After this presentation, it is my hope that
