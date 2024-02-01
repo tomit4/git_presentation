@@ -474,6 +474,7 @@ Which outputs:
 
 ```
 * main
+ testing
 ```
 
 You'll notice that our HEAD is still pointing to "main" (indicated by the
