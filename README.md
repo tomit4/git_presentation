@@ -36,7 +36,7 @@ be covered in this talk. This talk is mainly concerned with understanding basic
 git practices on working with small teams and how the basic flows of
 creating/deleting git branches, merging git branches, rebasing git branches, creating
 pull requests as well as forking projects on Github. I myself am not
-an expert and git, but wanted to give this talk to further my own basic
+an expert on git, but wanted to give this talk to further my own basic
 understanding of git and also to hopefully help all of you should you not be
 familiar with these practices. After this presentation, it is my hope that
 further discussions will further educate each of us on our own experiences with
@@ -53,7 +53,7 @@ off of, version control is:
 > you can recall specific versions later."
 
 The most simple method of enforcing version control is to copy your project's
-root directory into a separate copy (perhaps with a timestamp) so that should
+root directory into a separate directory (perhaps with a timestamp) so that should
 future changes to your project need to revert back, you can simply utilize this
 copied directory. This is what is known as a Local Version Control.
 
@@ -81,7 +81,7 @@ databases to ensure fidelity of the project and its version history.
 ## What Is Git And Why Is It Everywhere?
 
 Git was created in 2005 by the famous software engineering team over at The
-Linux Kernel, including Linus Torvaulds, creator of the Linux kernel.
+Linux Kernel, including Linux's own creator, Linus Torvaulds.
 Prior to 2005, the Linux kernel had used a Version Control System known
 as Bitkeeper. The decision to create Git arose out of the breaking down
 of the relationship between the Linux community and Beetkeeper, which had
