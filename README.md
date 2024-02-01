@@ -663,6 +663,8 @@ git add -u && \
 git commit -m ":memo: Worked on issue 002"
 ```
 
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_013.png">
+
 Now think on this for just a moment, both branches have worked on the same file.
 Ideally, the project lead will pull in each change one by one and they should
 all line up, right? Let's see what happens when we return to main and merge our
@@ -819,6 +821,8 @@ git add -u && \
 git commit -m ":memo: Made changes to README for issue_003 rebase"
 ```
 
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_014.png">
+
 And let's go back to our main branch:
 
 ```bash
@@ -843,6 +847,8 @@ And again, stage those changes and commit them:
 git add -u && \
 git commit -m ":memo: Made changes to README for issue_004 rebase"
 ```
+
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_015.png">
 
 Instead of returning to our main branch, we'll instead remain in our issue_004
 branch and rebase it <em>on top of</em> our main branch:
@@ -874,6 +880,8 @@ We'll get a similar output:
 ```
 Current branch issue_003 is up to date.
 ```
+
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_016.png">
 
 If we then return to main and attempt to merge issue_003, we'll perform a
 fast-forward merge:
@@ -942,6 +950,8 @@ Yet another line we are adding to your README
 this line is meant to address issue 002
 this change demonstrates rebase for issue_004
 ```
+
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_017.png">
 
 Let's add it as before and commit it. this time with no message applied:
 
