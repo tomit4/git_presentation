@@ -543,9 +543,9 @@ c3fea39 :tada: Initial commit!
 As you can see, our last commit on testing has now <em>diverged</em> from main.
 
 Because a branch in Git is actually a simple file that contains the 40 character
-sha-1 checksum of the commit it points to, branches are cheap to create and
+SHA-1 checksum of the commit it points to, branches are cheap to create and
 destroy. Creating a new branch is as quick and simple as writing 41 bytes to a
-file (4p characters and a newline).
+file (40 characters and a newline).
 
 This is in sharp contrast to the way most older VCS tools branch, which involves
 copying all of the project's files into a second directory. This can take several
@@ -618,7 +618,7 @@ README file like so:
 echo "this line is meant to address issue 001" >> README.md
 ```
 
-After appending this to our line, let's stage and commit it like so:
+After appending this to our README, let's stage and commit it like so:
 
 ```bash
 git add -u && \
@@ -632,9 +632,9 @@ git checkout main
 ```
 
 Keep in mind that our commit on issue 001 has yet to be merged into main, we
-have taken our HEAD and "travelled back in time" in our version history. Now,
-let's play the role of another developer here and work on issue 02. Let's
-create and switch to a new branch again:
+have taken our HEAD and "travelled back in time" in our version history by
+switching to our main branch. Now, let's play the role of another developer here
+and work on issue 02. Let's create and switch to a new branch again:
 
 ```bash
 git checkout -b issue_002
@@ -706,8 +706,8 @@ Unmerged paths:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Anything that has merge conflicst and hasn't been resolved is listed as
-unmerged. Git adds standard conflict-resolutioon markers to the files that have
+Anything that has merge conflicts and hasn't been resolved is listed as
+unmerged. Git adds standard conflict-resolution markers to the files that have
 conflicts, so you can open them manually and resolve those conflicts. Let's
 investigate our README file to see it for ourselves. Opening our README in our
 editor reveals this:
@@ -717,7 +717,6 @@ editor reveals this:
 
 A Basic readme.
 more text to my readme
-Yet another line we are adding to your README
 Yet another line we are adding to your README
 <<<<<<< HEAD
 this line is meant to address issue 001
@@ -734,7 +733,7 @@ demarcations to ensure we pick the right piece of code. Let's say we're the
 project lead and we see this code and we determine that the code addressing
 issue 001 is safe to remove as the code being brought in from issue 002 doesn't
 break anything and adds a needed feature. Thusly we would edit out our file so
-that none of the demarcations left by our merge conflict remain and only the
+that the demarcations left by our merge conflict are removed and only the
 changes we want to keep remain. This would leave our README file looking like
 so:
 
@@ -743,7 +742,6 @@ so:
 
 A Basic readme.
 more text to my readme
-Yet another line we are adding to your README
 Yet another line we are adding to your README
 this line is meant to address issue 002
 ```
