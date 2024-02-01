@@ -427,7 +427,7 @@ next section.
 Nearly every VCS has some form of branching support. Branching means you diverge
 from the main line of development and continue to do work without messing with
 that main line. Usually this is an expensive process, often requiring you to
-create a new copy of your source code directory, which can take a loong time for
+create a new copy of your source code directory, which can take a long time for
 large projects. Git, on the other hand, takes a more lightweight and unique
 approach to branching. It is this feature that has made Git stand out amongst
 the rest as the predominant VCS today.
@@ -444,7 +444,7 @@ Date:   Thu Feb 1 04:38:42 2024 -0800
     :tada: Initial commit!
 ```
 
-Our commit sha-1 hash acts as a checksum for each subdirectory, and stores them
+Our commit's SHA-1 hash acts as a checksum for each subdirectory, and stores them
 as a tree object in the Git repository. Git then creates a commit object that
 has the metadata and a pointer to the root project tree so it can re-create that
 snapshot when needed.
@@ -468,6 +468,12 @@ so:
 
 ```bash
 git branch
+```
+
+Which outputs:
+
+```
+* main
 ```
 
 You'll notice that our HEAD is still pointing to "main" (indicated by the
