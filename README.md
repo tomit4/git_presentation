@@ -418,9 +418,9 @@ If you now navigate to your repository on Github, you should now see your basic
 README.md and .gitignore files within your repository.
 
 This covers the basics of git, and if this was all git had to offer, it would be
-a fine version control system in its own right, but what has made git so
-ubiquitous in the way it handles branching, which is the topic of the next
-section.
+a fine version control system in its own right, but one of git's <em>killer
+features</em> is in the way it handles branching, which we will cover in the
+next section.
 
 ### Git Branching
 
