@@ -116,23 +116,23 @@ Additionally, because version control is kept locally on each contributor'
 s local machine, git saves developer time by not needing to initially reach out
 to the project repository unless the developer explicitly pulls in remote changes.
 
-**Git has integrity**
+**Git Has integrity**
 
-If one invokes git log, one will see a series of sha-1 40
-character hash sumsthat keep track of all committed changes to the project. This
+If one invokes `git log`, one will see a series of SHA-1 40
+character hashsum that keep track of all committed changes to the project. This
 not only makes referencing a git commit an extremely efficient operation (i.e. O(1)),
-it also ensures that corruption to the data within the commit nearly impossible
+it also ensures that corruption to the data within the commit will be nearly impossible
 to lose without being detected. This is because the hash is directly tied to the
 changes made in that specific commit.
 
-** Git Generally Only Adds Data**
+**Git Generally Only Adds Data**
 
-Previous implementations of VCS's allowed for the deletion of various parts of
+Previous implementations of VCS's allowed for various parts of
 the project's version history to be easily deleted and removed. Git generally
-only ADDS data, rather than removing it. While it is possible to
+only <em>adds</em> data, rather than removing it. While it is possible to
 "rewrite" history in git, it is generally more cumbersome to do so and must be
-explicitly done. This makes it far easier to recover data that SEEMS lost when
-working with git.
+explicitly done. This makes it far easier to recover data that <em>seems</em> lost when
+working with Git.
 
 ### The Three Stages Of Git
 
