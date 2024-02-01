@@ -412,7 +412,7 @@ git remote add origin "https://github.com/<username>/my_project"
 And finally let's push our changes up to our new remote:
 
 ```bash
-git push -u origin
+git push -u origin main
 ```
 
 If you now navigate to your repository on Github, you should now see your basic
@@ -971,7 +971,7 @@ and merges it into the main branch instead.
 To be honest, the distinction between merging and rebasing can seem confusing to
 me as I am a beginer, and accounts I've read online indicate that it takes quite
 a bit of encountering both on a project before one can appreciate the
-intricacies between the two. So please take the above explanation with a grain
+differences between the two. So please take the above explanation with a grain
 of salt.
 
 ### Rebase vs Merging
