@@ -139,10 +139,6 @@ working with Git.
 The general workflow of git can be broken down into three states that your files
 can reside in:
 
-- modified
-- stages
-- committed
-
 1. Modified: Files that have yet to be commited to your database.
 2. Staged: Files that have been marked as modified, and are ready to go into
    your next commit snapshot.
@@ -158,7 +154,7 @@ To reiterate, a basic workflow can look like this:
 1. You modify files in your working tree.
 2. You selectively stage just those changes you want to be part of your next
    commit, which adds <em>only</em> those changes to the staging area.
-3. You do a commit, which takes the files as they are in the staginga rea and
+3. You do a commit, which takes the files as they are in the staging area and
    stores that snapshot permanently in your Git directory.
 
 <img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_007.png">
@@ -166,9 +162,11 @@ To reiterate, a basic workflow can look like this:
 ### Git Basics
 
 As I mentioned earlier, I will not be covering installing git or configuring git
-for the first time on your local machine. There are plenty of resources online
+for the first time on your local machine. There are plenty of [resources
+online](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 for how to do that with your specific setup, and the [Pro Git](https://git-scm.com/book/en/v2) book I
-mentioned earlier has an in depth chapter on exactly how to do so.
+mentioned earlier has an in depth chapter on exactly how to do so. Instead this
+section will focus more on the basics of a general workflow using Git.
 
 This section will probably be very familiar to you, but it never hurts to have a
 refresher on the basics.
