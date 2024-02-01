@@ -951,14 +951,16 @@ this line is meant to address issue 002
 this change demonstrates rebase for issue_004
 ```
 
-<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_017.png">
-
 Let's add it as before and commit it. this time with no message applied:
 
 ```bash
 git add -u && \
 git commit
 ```
+
+Our rebase will result in a working tree that looks like this:
+
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_017.png">
 
 If we then investigate our logs, we'll see this output:
 
