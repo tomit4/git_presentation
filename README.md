@@ -753,10 +753,7 @@ git add -u &&\
 git commit -m ":memo: Merged in issue 002"
 ```
 
-Note that we created a new commit for this merge, which will add onto our
-version history. This is an important distinction to make when compared to the
-slightly more complicated process of rebasing. Let's investigate our git logs to
-see our version history thus far:
+Let's now investigate our git logs to see our version history thus far:
 
 ```bash
 git log --online --decorate
@@ -782,18 +779,18 @@ why squashing and ammending commit messages is an important part of working with
 git (that unfortunately we will not have time to cover in this presentation but
 is worth looking into of your own accord when you have time).
 
-But let's say that we didn't want to have a separate commit "Merged in issue 002",
-rather we wanted simply to apply the last commit "Worked on issue 002" on
-<em>top</em> of our last commit to "main"? This is where we would utilize one of
-git's other major features, rebasing.
+But let's say that we had many commits more than simply "Merged in issue 002"
+that we brought in from our issue_002 branch? What if we rather simply wanted to apply
+the last commit "Worked on issue 002" on <em>top</em> of our last commit to "main"?
+This is where we would utilize one of git's other major features, rebasing.
 
 ### Basic Rebasing
 
 Rebasing is an alternative to merging which allows us to "rewrite" our version
 history by overwriting the current place of our history (the HEAD) with the
 latest commit from a divergent branch. Let's demonstrate by creating a similar
-scenario as before. Let's create a branch issue_004, and make some changes as
-before:
+scenario as before. Let's create a branch issue_003, and make some changes to
+our README:
 
 ```bash
 git checkout -b issue_003
