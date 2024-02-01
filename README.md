@@ -202,7 +202,7 @@ SECRET="I should not commit this"
 
 This is to demonstrate the use of the `.gitignore` file, which is a basic text
 file that lists out the files in our project that we do not wish to commit to a
-remote repository or version control using git, this usually includes dependency
+remote repository or version control using git. This usually includes dependency
 folders that are rather large, or files that hold onto secret credentials we don't
 want exposing to the outside world. Let's create a .gitignore file and quickly add
 our .env file to it:
@@ -223,10 +223,10 @@ Once you have created a repository (often titled the same as your project's root
 git init
 ```
 
-This simple command sets up a hidden .git directory in the root of your project
+This simple command sets up a hidden `.git` directory in the root of your project
 directory which holds local configurations for this repository. It now allows us
-to utilize the git command line interface to interface specifically with this
-project via git. Let's add our files that we wish to commit.
+to utilize the git command line interface specifically within the context of
+this project. Let's add our files that we wish to commit.
 
 ```bash
 git add .
