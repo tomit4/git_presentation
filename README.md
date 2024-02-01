@@ -84,7 +84,7 @@ Git was created in 2005 by the famous software engineering team over at The
 Linux Kernel, including Linux's own creator, Linus Torvaulds.
 Prior to 2005, the Linux kernel had used a Version Control System known
 as Bitkeeper. The decision to create Git arose out of the breaking down
-of the relationship between the Linux community and Beetkeeper, which had
+of the relationship between the Linux community and Bitkeeper, which had
 chosen to revoke the tool's free-of-charge status.
 
 The Linux kernel is perhaps the largest open source project in production today,
