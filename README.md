@@ -200,11 +200,12 @@ Once we have this basic README.md, let's also create a basic .env file:
 SECRET="I should not commit this"
 ```
 
-This is to demonstrate the use of the .gitignore file, which is a basic text
-file that holds a series of files that we do not wish to commit up to git, this
-usually includes dependency folders that are rather large, or files that hold
-onto secret credentials we don't want exposing to the outside world. Let's
-create a .gitignore file and quickly add our .env file to it:
+This is to demonstrate the use of the `.gitignore` file, which is a basic text
+file that lists out the files in our project that we do not wish to commit to a
+remote repository or version control using git, this usually includes dependency
+folders that are rather large, or files that hold onto secret credentials we don't
+want exposing to the outside world. Let's create a .gitignore file and quickly add
+our .env file to it:
 
 ```bash
 touch .gitignore && cat "*.env" >> .gitignore
