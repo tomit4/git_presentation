@@ -104,9 +104,9 @@ Git, on the other hand, utilizes what can be
 thought of as a series of snapshots, or a miniature filesystem. By keeping a
 record of only the changes to the files made, rather than copying over the
 entirity of the project itself, Git is significantly more efficient and
-performant than its predecessors as if a file remains unchanged within an
-overall change to the version of the project, there are not additional changes
-saved to the database on that file (only on the files that are changed).
+performant than its predecessors. In Git, if a file remains unchanged within an
+overarching update to the version of the project, there are not additional changes
+saved to the database for that file (only on the files that have been updated).
 
 <img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_005.png">
 
