@@ -454,6 +454,8 @@ The default branch name in Git is <em>master</em>. As you start making commits,
 you're given a master branch that points to the last commit you made. Each time
 you commit, the master branch pointer moves forward automatically.
 
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_008.png">
+
 **Creating A New Branch**
 
 One can create a new branch by simply invoking the git branch command. Let's
@@ -495,6 +497,8 @@ Which outputs:
 c3fea39 :tada: Initial commit!
 ```
 
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_009.png">
+
 The HEAD branch is a special branch that specifically refers to the branch we
 are currently on, in this case we are still on the main branch, but as you can
 see at the end of this parentheses, we have the testing branch, which is showing
@@ -511,6 +515,8 @@ from earlier, we'll see that indeed we've changed over to the testing branch:
 867a131 (HEAD -> testing, main) Added an additional example line to README
 c3fea39 :tada: Initial commit!
 ```
+
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_010.png">
 
 Let's make a change to our README file, stage those changes, and commit it while on our testing
 branch:
@@ -542,6 +548,8 @@ c3fea39 :tada: Initial commit!
 
 As you can see, our last commit on testing has now <em>diverged</em> from main.
 
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_011.png">
+
 Because a branch in Git is actually a simple file that contains the 40 character
 SHA-1 checksum of the commit it points to, branches are cheap to create and
 destroy. Creating a new branch is as quick and simple as writing 41 bytes to a
@@ -568,6 +576,8 @@ checkout command:
 ```bash
 git checkout main
 ```
+
+<img src="https://github.com/tomit4/git_presentation/blob/main/assets/slide_012.png">
 
 Now let's merge our testing branch simply by invoking the git merge command:
 
