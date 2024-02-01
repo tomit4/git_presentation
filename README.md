@@ -989,7 +989,7 @@ The majority of this document has been me simplifying aspects of the [Pro Git](h
 >
 > From this angle, changing the commit history is almost blasphemous; you're
 > <em>lying</em> about what actually transpired. So what if there was a messy
-> series of merge commits? That's how it happend, and the repository should
+> series of merge commits? That's how it happened, and the repository should
 > preserve that for posterity.
 >
 > The opposing point of view is that the commit history is the <b>story of how
