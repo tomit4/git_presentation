@@ -114,7 +114,7 @@ saved to the database for that file (only on the files that have been updated).
 
 Additionally, because version control is kept locally on each contributor'
 s local machine, git saves developer time by not needing to initially reach out
-to the project repository unless needing to pull in remote changes.
+to the project repository unless the developer explicitly pulls in remote changes.
 
 **Git has integrity**
 
