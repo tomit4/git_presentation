@@ -12,18 +12,18 @@ about the Git Version Control System (VCS).
 
 While this presentation is meant to be an overview of Git, in the interest of
 covering what I believe is lacking in those of us who are teaching ourselves how
-to code, I am going to only briefly cover what I consider to be the basics of
+to code, I am going to try my best to quickly cover what I consider to be the basics of
 Git, as I am sure the majority of us here have already become at least somewhat
-familiar with git.
+familiar with it in the context of simply saving files to a Github repository.
 
 ### What You'll Already Need To Know
 
 Although I will cover briefly these basic concepts, it is expected that you
-already have a basic familiarity with:
+already:
 
 - Have git already installed on your system, be it Windows, MacOS, or Linux
 - Have a familiarity with the essential git commands (git init, git add, git commit, and git push)
-- How to set up a basic git repository on Github
+- Know how to set up a basic git repository on Github
 - What a .gitignore file is and why it's useful
 
 ## Features Of Git This Talk Will Not Cover
